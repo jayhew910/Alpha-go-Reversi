@@ -37,14 +37,14 @@ the board state and play the most promising move.
 * `--game`: Number of the game. 0: Tic Tac Toe, 1: Othello.
 
 **The models file in othello**
-models3a : n=10
-models3b : n=30, epoch=50
-models3c : n=100
-models4a : epoch=10
-models4b : epoch=30, cpuct=5, epsilon=0.25
-models5a : cpuct=1
-models5b : cpuct=20
-models6a : epsilon=0
-models6c : epsilon=0.5
+* `models3a : n=10
+* `models3b : n=30, epoch=50
+* `models3c : n=100
+* `models4a : epoch=10
+* `models4b : epoch=30, cpuct=5, epsilon=0.25
+* `models5a : cpuct=1
+* `models5b : cpuct=20
+* `models6a : epsilon=0
+* `models6c : epsilon=0.5
 
 best param : n=100, cpuct=5, epoch=50, epsilon=0.25
