@@ -9,22 +9,6 @@ the board state and play the most promising move.
  - TensorFlow (Tested on 1.4.0)
  - NumPy
  - Python 3
- 
-## Usage
-**To train the model from scratch.**:
-```
-python main.py --load_model 0
-``` 
-
-**To train the model using the previous best model as a starting point**:
-```
-python main.py --load_model 1
-``` 
-
-**To play a game vs the previous best model**:
-```
-python main.py --load_model 1 --human_play 1
-``` 
 
 **Options**:
 * `--num_iterations`: Number of iterations.
